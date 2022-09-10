@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print possible combo of 3
+ * main - Entry point
  *
  * Return: Always (Success)
  */
@@ -17,11 +17,12 @@ int main(void)
 				putchar(i + '0');
 				putchar(p + '0');
 				putchar(m + '0');
-				if (i != '7')
+				if (i != 7)
 				{
 					putchar(',');
 					putchar(' ');
 				}
+			}
 			}
 		}
 	}
