@@ -4,10 +4,10 @@
  * mul - multiplies two numbers
  * @a: first number
  * @b: second number
- * Return: return result
+ * Return: returns result
  */
 
 int mul(int a, int b)
 {
-	retun (a * b);
+	return (a * b);
 }
