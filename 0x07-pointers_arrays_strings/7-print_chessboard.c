@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_chesseboard - prints the chesseboard
+ * print_chessboard - prints the chessboard
  * @a: pointer to pieaces to print
  *
  * Return: void
  */
-void print_chesseboard(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
