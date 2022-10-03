@@ -18,7 +18,7 @@ int len(char *str)
 }
 
 /**
- * argstostr - a function that concatenates all the arguments of str
+ * argstostr - a function that concatenates all the arguments of the program
  * @ac: count of args passed to the function
  * @av: array of arguments
  *
