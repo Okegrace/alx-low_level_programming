@@ -9,16 +9,16 @@ int len(char *str)
 {
 	int len = 0
 
-		if (*str != NULL)
+		if (str != NULL)
 		{
-			while (*str[len])
+			while (str[len])
 				len++;
 		}
 	return (len);
 }
 
 /**
- * argstostr - a function that concatenates all the arguments of the program
+ * argstostr - a function that concatenates all the arguments in str
  * @ac: count of args passed to the function
  * @av: array of arguments
  *
