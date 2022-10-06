@@ -1,1 +1,1 @@
-Write a program that multiplies two positive numbers
+Write a function that concatenates two strings
